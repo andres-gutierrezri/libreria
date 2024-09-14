@@ -42,7 +42,7 @@ DEBUG = not IS_DEPLOYED
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '0.0.0.0', 'libreria-sistema.up.railway.app']
 
-CSRF_TRUSTED_ORIGINS = ['http://*', 'https://libreria-sistema.up.railway.app']  
+CSRF_TRUSTED_ORIGINS = ['http://*', 'https://libreria-sistema.up.railway.app']
 
 # Application definition
 # Definición de aplicaciones
