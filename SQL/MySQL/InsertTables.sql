@@ -20,5 +20,8 @@ INSERT INTO libreria_libro (titulo, imagen, descripcion) VALUES ('Ecuaciones Dif
 INSERT INTO libreria_libro (titulo, imagen, descripcion) VALUES ('Cálculo con Geometría Analítica', 'publico/caratulas/Calculo-Geometria.jpg', 'Para escribir este libro, los editores convocaron a diversos colegas de la comunidad mexicana de investigadores de Matemática Educativa para proponer escritos que persiguieran el objetivo de introducir al lector a la complejidad de la problemática que atiende la Matemática Educativa.');
 
 INSERT INTO libreria_libro (titulo, imagen, descripcion) VALUES ('Fundamentos de Circuitos Eléctricos', 'publico/caratulas/Fundamentos-Circuitos-Electricos.png', 'Fundamentos de Circuitos eléctricos se ha convertido en la elección de los estudiantes para un curso introductorio de circuitos eléctricos. La tercera edición continúa en esta línea basándose en el éxito de las ediciones anteriores, con nuevas características para alumnos y profesores Incluye ejemplos de aplicaciones industriales prácticas.');
+
+INSERT INTO libreria_libro (titulo, imagen, descripcion) VALUES ('Variables Complejas y Aplicaciones', 'publico/caratulas/Variables-Complejas-Aplicaciones.jpg', 'Este libro es una revisión de la sexta edición, publicada en USA en 1996. Esta edición, al igual que las anteriores, ha servido como libro de texto en cursos de introducción a la teoría y aplicaciones de las funciones de variable compleja. Esta nueva edición mantiene el contenido básico y el estilo de las que la precedieron. En esta edición, los cambios más relevantes aparecen en los nueve primeros capítulos, que constituyen el núcleo de un curso básico.');
+
 -- SELECCIONAR TABLA
 SELECT titulo, imagen FROM libreria_libro;
