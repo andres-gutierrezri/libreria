@@ -1,10 +1,11 @@
 from django.db import models
+from sistema import settings
 
 # Create your models here.
 class Libro(models.Model):
     id = models.AutoField(primary_key=True)
     titulo = models.CharField(max_length=100, verbose_name='Título')
-    imagen = models.ImageField(upload_to='media/', verbose_name='Imagen', null=True)
+    imagen = models.ImageField(upload_to=f'{settings.PUBLIC_MEDIA}/caratulas', verbose_name='Imagen', null=True)
     descripcion = models.TextField(verbose_name='Descripción', null=True)
 
     def __str__(self):
