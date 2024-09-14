@@ -7,9 +7,10 @@
     Para ejecutar este script, se debe ejecutar PowerShell con permisos de administrador.
 #>
 
-write-Output "Habilitar la Ejecucion de Scripts en PowerShell"
+# Inicie Windows PowerShell con la opción "Ejecutar como administrador"
+write-Output "Habilitar la Ejecucion de Scripts para el Administrador en PowerShell"
 
-Set-ExecutionPolicy Unrestricted -Force
+Set-ExecutionPolicy -Scope LocalMachine Unrestricted -Force # Directiva de ejecución para el administrador
 Get-ExecutionPolicy # Debe mostrar Unrestricted
 Get-ExecutionPolicy -List
 
